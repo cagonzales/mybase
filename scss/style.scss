@@ -1,5 +1,8 @@
 // VARIABLES
-$mybodybackground: rgb(0, 105, 128);
+$mybodybackground: rgb(167, 210, 186);
+
+// IMPORT PARTIALS
+@import 'partials/toc';
 
 body {
     background-color: $mybodybackground;
