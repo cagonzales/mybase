@@ -38,7 +38,7 @@ a {
   color: #da8b37; }
 
 a:hover {
-  color: #884b01; }
+  color: #804803; }
 
 /* TYPE SPECIMEN */
 .mainhead {
@@ -61,7 +61,7 @@ button, .button {
   margin: .5em;
   border-radius: .5em; }
   button:hover, .button:hover {
-    background-color: #884b01;
+    background-color: #804803;
     color: #fff; }
 
 body {
