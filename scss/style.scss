@@ -8,13 +8,20 @@ $color-accent: orange;
 $color-links: rgb(218, 139, 55);
 $color-links-dark: rgb(128, 72, 3);
 
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+
 // IMPORT PARTIALS
 @import 'partials/toc';
 @import 'partials/typography';
 @import 'partials/buttons';
+@import 'partials/media';
+@import 'partials/layout';
 
-body {
-    background-color: $mybodybackground;
-
-}
+// body {
+//     background-color: $mybodybackground;
+// }
 
