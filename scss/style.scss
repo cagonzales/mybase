@@ -1,12 +1,13 @@
 // VARIABLES
 $mybodybackground: rgb(220, 241, 230);
-// $body-fontfamily:
+$body-fontfamily: 'Roboto';
 
 // COLORS
 $color-text-body: rgba(0, 0, 0, 0.81);
 $color-accent: orange;
 $color-links: rgb(218, 139, 55);
-$color-links-dark: rgb(128, 72, 3);
+$color-links-dark: rgb(236, 195, 144);
+$color-hero-bg: rgb(229, 230, 217);
 
 // BREAKPOINTS
 $breakpoint-small: 768px;
@@ -21,6 +22,7 @@ $breakpoint-large: 1250px;
 @import 'partials/media';
 @import 'partials/layout';
 @import 'partials/grid';
+@import 'partials/structure';
 
 // body {
 //     background-color: $mybodybackground;

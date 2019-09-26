@@ -1,0 +1,54 @@
+/* site header */
+
+.site-header, .site-footer{
+    background-color: $color-accent;
+    padding: 1em;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-family: $body-fontfamily;
+        font-size: 1.5em;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* Site Footer */
+
+.site-footer{
+    justify-content: center;
+    margin-top: 6em;
+}
+
+
+.site-nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    a {
+        display: block;
+        padding: 1em;
+    }
+}
+
+/* Hero Sections */
+
+.hero {
+    background-color: $color-hero-bg;
+    padding: 6em 1em;
+    text-align: center;
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
