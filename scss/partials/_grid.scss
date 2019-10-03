@@ -6,12 +6,31 @@ $gutter-width: 1%;
 .row  .column {
         margin-bottom: 2%;
 }
+
+        // FLEXBOX
         @media (min-width: $breakpoint-small) {
             .row {
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 margin-left: -1%;
                 margin-right: -1%;
+
+                &.swap {
+                    flex-direction: row-reverse;
+                }
+                // &.center {
+                //     display: block;
+                //     .column {
+                //         margin-left: auto;
+                //         margin-right: auto; 
+                //     }
+                // } 
+
+                &.center {
+                    flex-direction: column;
+                    align-items: center;
+                }
                
                 .column {
                     flex-grow: 1;
@@ -26,10 +45,10 @@ $gutter-width: 1%;
         }
 
 //  FOR DEMO ONLY
-.row {
+.row.demo {
     // background: yellow;
     .column {
-        background: rgba(0,0,0,.5);
+        background: rgba(210, 210, 210, 0.5);
         padding: 1em;
         text-align: center;
     }
